@@ -1,7 +1,7 @@
 fastapi
 uvicorn
 langchain
-pinecone-client
+pinecone
 pypdf
 tiktoken
 groq
