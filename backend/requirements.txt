@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-pinecone-client
-langchain
-sentence-transformers
-groq
-pypdf
