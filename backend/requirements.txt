@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+langchain
+pinecone-client
+pypdf
+tiktoken
+groq
+sentence-transformers
