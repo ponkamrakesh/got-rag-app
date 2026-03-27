@@ -21,7 +21,7 @@ def upsert_in_batches(index, vectors, batch_size=100):
         index.upsert(vectors=batch)
 
 def ingest_pdf(pdf_path="got.pdf"):
-    reader = PdfReader("/kaggle/input/datasets/rakeshponkam/got-westeros/got.pdf")
+    reader = PdfReader("got.pdf")
     c=1
     text = ""
     for page in reader.pages:
