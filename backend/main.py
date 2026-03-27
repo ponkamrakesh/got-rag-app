@@ -11,6 +11,7 @@ class Query(BaseModel):
 @app.on_event("startup")
 def startup_event():
     print("App Started...!")
+    ingest_pdf()
 
 @app.post("/chat")
 def chat(query: Query):
