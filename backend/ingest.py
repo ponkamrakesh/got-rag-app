@@ -31,3 +31,5 @@ def ingest_pdf(pdf_path="got.pdf"):
     index.upsert(vectors=to_upsert)
 
     print("PDF ingested into Pinecone")
+
+ingest_pdf()
