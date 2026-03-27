@@ -1,7 +1,8 @@
-from langchain.document_loaders import PyPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+import os
+from pypdf import PdfReader
 from sentence_transformers import SentenceTransformer
-import pinecone
+from pinecone import Pinecone, ServerlessSpec
+from groq import Groq
 from config import *
 
 def chunk_text(text, chunk_size=500, overlap=100):
